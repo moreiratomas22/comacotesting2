@@ -807,7 +807,7 @@ ul.top-info-box li .info-box span.info-icon {
 
 ul.top-info-box li .info-box .info-box-content {
   display: inline-block;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
   flex-direction: column;
 }
 
@@ -1025,7 +1025,7 @@ ul.navbar-nav > li > a {
 }
 
 .dropdown-menu-large > li > ul > li.active > a {
-  color: #ffb600 !important;
+  color: #c82514 !important;
 }
 
 .navbar-nav > li > .dropdown-menu a {
@@ -1033,7 +1033,7 @@ ul.navbar-nav > li > a {
 }
 
 .dropdown-menu li a {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: block;
   font-size: 12px;
   text-transform: uppercase;
@@ -1057,7 +1057,7 @@ ul.navbar-nav > li > a {
 
 .dropdown-menu li a:hover,
 .dropdown-menu li a:focus {
-  color: #ffb600;
+  color: #c82514;
 }
 
 @media (min-width: 991px) {
@@ -2089,11 +2089,11 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   transition: 0.3s;
 }
 .accordion-group .card-header .btn[aria-expanded=true] {
-  color: #ffb600;
+  color: #c82514;
 }
 .accordion-group .card-header .btn[aria-expanded=true]::before {
   content: "\f106";
-  background-color: #ffb600;
+  background-color: #c82514;
 }
 .accordion-group.accordion-classic .card-header .btn:before {
   display: none;
@@ -2374,7 +2374,7 @@ img.testimonial-thumb {
   padding-left: 15px;
   text-transform: uppercase;
   color: #fff;
-  border-left: 3px solid #ffb600;
+  border-left: 3px solid #c82514;
 }
 
 /* Footer about us */
@@ -2442,6 +2442,7 @@ img.testimonial-thumb {
 
 /*-- Copyright --*/
 .copyright {
+  text-align: center;
   background: #c82514;
   color: #111;
   padding: 25px 0;
