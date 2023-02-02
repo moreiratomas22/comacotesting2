@@ -1,0 +1,42 @@
+<div class="row all-clients">
+            <div class="col-sm-4 col-6">
+              <figure class="clients-logo">
+                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/mcDonalds.png"
+                    alt="clients-logo" /></a>
+              </figure>
+            </div><!-- Client 1 end -->
+
+            <div class="col-sm-4 col-6">
+              <figure class="clients-logo">
+                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/Banco_galicia_logo.png"
+                    alt="clients-logo" /></a>
+              </figure>
+            </div><!-- Client 2 end -->
+
+            <div class="col-sm-4 col-6">
+              <figure class="clients-logo">
+                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/shell.png"
+                    alt="clients-logo" /></a>
+              </figure>
+            </div><!-- Client 3 end -->
+
+            <div class="col-sm-4 col-6">
+              <figure class="clients-logo">
+                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/ypf.png"
+                    alt="clients-logo" /></a>
+              </figure>
+            </div><!-- Client 4 end -->
+
+            <div class="col-sm-4 col-6">
+              <figure class="clients-logo">
+                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/bbva.png"
+                    alt="clients-logo" /></a>
+              </figure>
+            </div><!-- Client 5 end -->
+
+            <div class="col-sm-4 col-6">
+              <figure class="clients-logo">
+                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/lloyds.png"
+                    alt="clients-logo" /></a>
+              </figure>
+            </div><!-- Client 6 end -->

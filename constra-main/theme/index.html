@@ -60,6 +60,14 @@ FACEBOOK: https://www.facebook.com/themefisher
   <!-- Template styles-->
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Carrousell clientes
+    ================================================== -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+    defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -98,8 +106,9 @@ FACEBOOK: https://www.facebook.com/themefisher
                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Proyectos <i
                           class="fa fa-angle-down"></i></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="projects.html">Mc Donalds</a></li>
-                        <li><a href="projects-single.html">Bco Provincia</a></li>
+                        <li><a href="projects.html">Obras Civiles</a></li>
+                        <li><a href="projects-single.html">Obras Modulares</a></li>
+
                       </ul>
                     </li>
 
@@ -107,8 +116,10 @@ FACEBOOK: https://www.facebook.com/themefisher
                       <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Servicios <i
                           class="fa fa-angle-down"></i></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="services.html">Obras Civiles</a></li>
-                        <li><a href="service-single.html">Obras Modulares</a></li>
+                        <li><a href="services.html">Edificios Re-localizables</a></li>
+                        <li><a href="service-single.html">Oficinas Temporarias</a></li>
+                        <li><a href="service-single.html">Campamentos Mineros, Baños y Cocinas modulares</a></li>
+                        <li><a href="service-single.html">Servicios Penitenciarios, Edificios Militares</a></li>
                       </ul>
                     </li>
 
@@ -167,7 +178,7 @@ FACEBOOK: https://www.facebook.com/themefisher
     <!--/ Header end -->
 
     <div class="banner-carousel banner-carousel-1 mb-0">
-      <div class="banner-carousel-item" style="background-image:url(images/probancoCOMACO1.jpg)">
+      <div class="banner-carousel-item" style="background-image:url(images/cranes-g27d47c453_1920.jpg)">
         <div class="slider-content">
           <div class="container h-100">
             <div class="row align-items-center h-100">
@@ -472,7 +483,7 @@ FACEBOOK: https://www.facebook.com/themefisher
         </div><!-- Col end -->
 
         <div class="col-lg-4 text-center">
-          <img loading="lazy" class="img-fluid" src="images/services/service-center.jpg" alt="service-avater-image">
+          <img loading="lazy" class="img-fluid" src="images/services/en-mantenimiento.jpg" alt="service-avater-image">
         </div><!-- Col end -->
 
         <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
@@ -529,13 +540,13 @@ FACEBOOK: https://www.facebook.com/themefisher
               <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Todos
             </label>
             <label for="commercial">
-              <input type="radio" name="shuffle-filter" id="commercial" value="commercial">Comerciales
+              <input type="radio" name="shuffle-filter" id="commercial" value="commercial">Oficinas
             </label>
             <label for="education">
-              <input type="radio" name="shuffle-filter" id="education" value="education">Education
+              <input type="radio" name="shuffle-filter" id="education" value="education">Edificios
             </label>
             <label for="government">
-              <input type="radio" name="shuffle-filter" id="government" value="government">Gobierno
+              <input type="radio" name="shuffle-filter" id="government" value="government">Viviendas
             </label>
             <label for="infrastructure">
               <input type="radio" name="shuffle-filter" id="infrastructure" value="infrastructure">Infrastructura
@@ -554,8 +565,8 @@ FACEBOOK: https://www.facebook.com/themefisher
 
             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
               <div class="project-img-container">
-                <a class="gallery-popup" href="images/projects/provincia2.jpg" aria-label="project-img">
-                  <img class="img-fluid" src="images/projects/provincia2.jpg" alt="project-img">
+                <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
+                  <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img">
                   <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                 </a>
                 <div class="project-item-info">
@@ -580,7 +591,7 @@ FACEBOOK: https://www.facebook.com/themefisher
                     <h3 class="project-item-title">
                       <a href="projects-single.html">Ghum Touch Hospital</a>
                     </h3>
-                    <p class="project-cat">Healthcare</p>
+                    <p class="project-cat">Bancos</p>
                   </div>
                 </div>
               </div>
@@ -749,55 +760,29 @@ FACEBOOK: https://www.facebook.com/themefisher
 
           <h3 class="column-title">Nuestros Clientes</h3>
 
-          <div class="row all-clients">
-            <div class="col-sm-4 col-6">
-              <figure class="clients-logo">
-                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/mcDonalds.png"
-                    alt="clients-logo" /></a>
-              </figure>
-            </div><!-- Client 1 end -->
+          <div
+            class="swiffy-slider slider-item-show4 slider-nav-outside slider-nav-dark slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-32x9 bg-white shadow-lg py-3 py-lg-4"
+            data-slider-nav-autoplay-interval="2000">
+            <div class="slider-container">
+              <div><img src="images/clients/Banco_galicia_logo.png" alt="..."></div>
+              <div><img src="images/clients/bbva.png" loading="lazy" alt="..."></div>
+              <div><img src="images/clients/lloyds.png" loading="lazy" alt="..."></div>
+              <div><img src="images/clients/mcDonalds.png" loading="lazy" alt="..."></div>
+              <div><img src="images/clients/shell.png" loading="lazy" alt="..."></div>
+              <div><img src="images/clients/telecom.png" loading="lazy" alt="..."></div>
+            </div>
 
-            <div class="col-sm-4 col-6">
-              <figure class="clients-logo">
-                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/Banco_galicia_logo.png"
-                    alt="clients-logo" /></a>
-              </figure>
-            </div><!-- Client 2 end -->
+            <button type="button" class="slider-nav" aria-label="Go left"></button>
+            <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
 
-            <div class="col-sm-4 col-6">
-              <figure class="clients-logo">
-                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/shell.png"
-                    alt="clients-logo" /></a>
-              </figure>
-            </div><!-- Client 3 end -->
+          </div>
 
-            <div class="col-sm-4 col-6">
-              <figure class="clients-logo">
-                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/ypf.png"
-                    alt="clients-logo" /></a>
-              </figure>
-            </div><!-- Client 4 end -->
+        </div><!-- Clients row end -->
 
-            <div class="col-sm-4 col-6">
-              <figure class="clients-logo">
-                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/bbva.png"
-                    alt="clients-logo" /></a>
-              </figure>
-            </div><!-- Client 5 end -->
+      </div><!-- Col end -->
 
-            <div class="col-sm-4 col-6">
-              <figure class="clients-logo">
-                <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/lloyds.png"
-                    alt="clients-logo" /></a>
-              </figure>
-            </div><!-- Client 6 end -->
-
-          </div><!-- Clients row end -->
-
-        </div><!-- Col end -->
-
-      </div>
-      <!--/ Content row end -->
+    </div>
+    <!--/ Content row end -->
     </div>
     <!--/ Container end -->
   </section>
@@ -832,21 +817,21 @@ FACEBOOK: https://www.facebook.com/themefisher
           <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
             <h3 class="widget-title">Lorem ipsum dolor sit amet</h3>
             <div class="working-hours">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
-              labore et dolore magna aliqua.
-              <!-- <br><br> Monday - Friday: <span class="text-right">10:00 - 16:00 </span>
-                <br> Saturday: <span class="text-right">12:00 - 15:00</span>
-                <br> Sunday and holidays: <span class="text-right">09:00 - 12:00</span> -->
+              NUESTRA MISIÓN ES BRINDAR SOLUCIONES INNOVADORAS A NUESTROS CLIENTES EN EL ÁMBITO DE LA CONSTRUCCIÓN,
+              ADAPTÁNDONOS
+              A SUS NECESIDADES Y BRINDANDO UN SERVICIO EXCELENTE.
             </div>
           </div><!-- Col end -->
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
             <h3 class="widget-title">Servicios</h3>
             <ul class="list-arrow">
-              <li><a href="service-single.html">Construccion Modular</a></li>
-              <li><a href="service-single.html">General Contracting</a></li>
-              <li><a href="service-single.html">Gestion de la construcción</a></li>
-              <li><a href="service-single.html">Diseño y creación</a></li>
+              <li><a href="service-single.html">Edificios Re-localizables</a></li>
+              <li><a href="service-single.html">Oficinas Temporarias</a></li>
+              <li><a href="service-single.html">Campamentos
+                  Mineros,
+                  Baños y Cocinas modulares</a></li>
+              <li><a href="service-single.html">Servicios Penitenciarios, Edificios Militares</a></li>
               <!-- <li><a href="service-single.html">Self-Perform Construction</a></li> -->
             </ul>
           </div><!-- Col end -->

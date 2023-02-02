@@ -1332,7 +1332,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .slider.border {
-  background: none;
+  background: #c82514;
   border: 2px solid #c82514 !important;
 }
 
@@ -2536,7 +2536,7 @@ img.testimonial-thumb {
   position: relative;
   min-height: 300px;
   color: #fff;
-  background-position: 50% 50%;
+  background-position: 40% 40%;
   background-size: cover;
 }
 
