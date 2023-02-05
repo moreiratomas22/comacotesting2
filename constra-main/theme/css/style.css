@@ -1832,7 +1832,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-weight: 600;
 }
 .ts-service-info .learn-more:hover {
-  color: #ffb600;
+  color: #c82514;
 }
 
 /* Service Classic */
@@ -1840,7 +1840,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 24px;
   float: left;
   color: #fff;
-  background: #ffb600;
+  background: #c82514;
   border-radius: 100%;
   width: 60px;
   height: 60px;
@@ -1854,7 +1854,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .ts-service-classic:hover .ts-service-icon i {
-  background: #ffb600;
+  background: #c82514;
 }
 
 /* Projects area
