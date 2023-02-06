@@ -22,6 +22,11 @@ FACEBOOK: https://www.facebook.com/themefisher
 /* @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap); */
 /* Typography
 ================================================== */
+
+.medio-Ambiente {
+
+}
+
 body {
   background: #fff;
   color: #555;
@@ -1767,7 +1772,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .ts-service-icon.icon-round i {
   font-size: 24px;
   color: #fff;
-  background: #ffb600;
+  background: #c82514;
   text-align: center;
   border-radius: 100%;
   width: 60px;
