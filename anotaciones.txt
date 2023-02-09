@@ -1,1 +1,36 @@
 Generar el less de CSS, @rojoComaco: c82514
+
+
+* De la pag ppal:
+seccion de cuidamos el medio ambiente, iconos, arreglar.
+
+contenido de las hard skills
+
+Proyectos recientes en carrusell
+
+fotos proyectos recientes
+
+footer SERVICIOS chekear (Posibles horarios de atencion)
+
+linkear facebook y twitter
+
+presupuesto
+
+
+
+* Empresa - Nosotros
+
+fotos carrusell
+
+Banner de total proyectos
+
+Fotos del equipo, con su linkedin y google
+
+Nuestros Clientes - crear website de catalogo de los clientes (nose si carrusell o cards)
+
+* Proyectos -
+
+ Solo todo el panel de todos los proyectos
+
+
+
