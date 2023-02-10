@@ -30,7 +30,9 @@ Nuestros Clientes - crear website de catalogo de los clientes (nose si carrusell
 
 * Proyectos -
 
- Solo todo el panel de todos los proyectos
+ Solo todo el panel de todos los proyectos, necesitamos las fotos.
+
+* Servicios
 
 
 
