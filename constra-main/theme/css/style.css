@@ -2769,7 +2769,13 @@ img.testimonial-thumb {
 .ts-team-wrapper {
   position: relative;
   overflow: hidden;
+  /* filter: grayscale(100%); FOTOS A B&W */ 
 }
+
+.team-img-wrapper{
+  filter: grayscale(100%);
+}
+
 .ts-team-wrapper .ts-team-content {
   position: absolute;
   top: 76%;
