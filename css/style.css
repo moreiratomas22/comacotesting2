@@ -1992,12 +1992,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 .shuffle-item .project-img-container .project-item-info-content .project-item-title {
   font-size: 20px;
-}
-.shuffle-item .project-img-container .project-item-info-content .project-item-title a {
   color: #fff;
-}
-.shuffle-item .project-img-container .project-item-info-content .project-item-title a:hover {
-  color: #C82514;
 }
 .shuffle-item .project-img-container .project-item-info-content .project-cat {
   background: #C82514;
