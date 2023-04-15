@@ -6,7 +6,7 @@
   <!-- Basic Page Needs
 ================================================== -->
   <meta charset="utf-8">
-  <title>Constra - Construction Html5 Template</title>
+  <title>Comaco - Contacto</title>
 
   <!-- Mobile Specific Metas
 ================================================== -->
@@ -154,9 +154,12 @@
 
     <div class="social">
       <ul>
-        <li><a href="http://www.facebook.com/" target="_blank" class="icon-facebook"><img src="../images/icon-image/icono-facebook.png" alt="Logo de Facebook"></a></li>
-        <li><a href="http://www.twitter.com/" target="_blank" class="icon-twitter"><img src="../images/icon-image/icono.twitter.png" alt="Logo de twitter"></a></li>
-        <li><a href="mailto:" class="icon-mail"><img src="../images//icon-image/icono-email.png" alt="Logo de Email"></a></li>
+        <li><a href="http://www.facebook.com/" target="_blank" class="icon-facebook"><img
+              src="../images/icon-image/icono-facebook.png" alt="Logo de Facebook"></a></li>
+        <li><a href="http://www.twitter.com/" target="_blank" class="icon-twitter"><img
+              src="../images/icon-image/icono.twitter.png" alt="Logo de twitter"></a></li>
+        <li><a href="mailto:" class="icon-mail"><img src="../images//icon-image/icono-email.png"
+              alt="Logo de Email"></a></li>
       </ul>
     </div>
 
@@ -252,7 +255,7 @@
                   required></textarea>
               </div>
               <div class="text-right"><br>
-                <button class="btn btn-primary solid blank" type="submit">Enviar</button>
+                <button class="btn btn-primary solid blank" id="sendEmailButton" type="submit">Enviar</button>
               </div>
             </form>
           </div>
@@ -355,6 +358,16 @@
 
     <!-- Template custom -->
     <script src="../js/script.js"></script>
+
+    <!-- Envios de email -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("Ts2VPzmMGRbcl2hXY");
+      })();
+    </script>
+    <script src="../js/sendEmail.js"></script>
 
   </div><!-- Body inner end -->
 </body>
