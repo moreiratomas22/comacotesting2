@@ -2709,6 +2709,10 @@ img.testimonial-thumb {
 
 /* Sub Pages
 ================================================== */
+.row {
+  align-items: center;
+  justify-content: center;
+}
 /*-- Title border --*/
 .main-container .border-left {
   margin-bottom: 30px;
