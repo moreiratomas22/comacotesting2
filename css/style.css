@@ -445,7 +445,19 @@ hr {
   opacity: 0.2;
 }
 
+.testimonialAndrewHorncastle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonialAndrewHorncastle img {
+  width: 180px;
+  height: 180px;
+}
+
 blockquote {
+  width: 70%;
   padding: 25px;
   margin: 20px 0;
   background: #f9f9f9;
@@ -498,6 +510,15 @@ blockquote p {
   z-index: 1;
   font-style: italic;
   margin-bottom: 0;
+}
+
+@media (max-width:540px) {
+  .testimonialAndrewHorncastle {
+    flex-direction: column;
+  }
+  blockquote {
+    width: 90%;
+  }
 }
 
 cite {
@@ -1945,6 +1966,8 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 
 .ts-service-info {
   margin-left: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .ts-service-info h3 {

@@ -1,0 +1,9 @@
+*Agregar la foto de Andrew en testimonios
+*En equipo borrar el texto de abajo (dejar nombre y cargo)
+*Index: cambiar el cuadro rojo a negro y el boton negro a rojo
+*Redes sociales en el footer
+*Borrar los dos que no tienen foro en el equipo
+*Borrar carrusel de la seccion empresa
+*Borrar Servicio personalizado (Listo)
+*Proyectos recientes, cambiar fotos por los que están en la página de ellos (elegir las 6 mejores), todas van al carrusel
+*Hard Skills, sacar los textos y centrar los titulos
