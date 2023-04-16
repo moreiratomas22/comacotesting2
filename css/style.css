@@ -626,6 +626,7 @@ a[href^=tel] {
 
 .btn-primary {
   background: #C82514;
+  transition: ease-in-out 0.3s;
 }
 
 .btn-dark {
@@ -636,6 +637,7 @@ a[href^=tel] {
 .btn-dark:hover,
 .btn-white.btn-primary:hover {
   background: #111;
+  background-color: #70180e;
   color: #fff;
 }
 
@@ -1648,7 +1650,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 }
 
 .call-to-action-box .action-style-box {
-  background: #C82514;
+  background-color: #23282d;
   padding: 30px;
 }
 

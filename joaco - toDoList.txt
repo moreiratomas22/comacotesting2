@@ -1,5 +1,5 @@
 *Agregar la foto de Andrew en testimonios (Listo)
-*En equipo borrar el texto de abajo (dejar nombre y cargo)
+*En equipo borrar el texto de abajo (dejar nombre y cargo) (Listo)
 *Index: cambiar el cuadro rojo a negro y el boton negro a rojo
 *Redes sociales en el footer
 *Borrar los dos que no tienen foro en el equipo
