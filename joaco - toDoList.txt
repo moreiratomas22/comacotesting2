@@ -1,7 +1,7 @@
 *Agregar la foto de Andrew en testimonios (Listo)
 *En equipo borrar el texto de abajo (dejar nombre y cargo) (Listo)
 *Index: cambiar el cuadro rojo a negro y el boton negro a rojo (Listo)
-*Redes sociales en el footer
+*Redes sociales en el footer (Listo Facebook, falta Twitter)
 *Borrar los dos que no tienen foro en el equipo
 *Borrar carrusel de la seccion empresa
 *Borrar Servicio personalizado (Listo)
