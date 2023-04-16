@@ -3,7 +3,7 @@
 *Index: cambiar el cuadro rojo a negro y el boton negro a rojo (Listo)
 *Redes sociales en el footer (Listo Facebook, falta Twitter)
 *Borrar los dos que no tienen foto en el equipo (Listo)
-*Borrar carrusel de la seccion empresa
+*Borrar carrusel de la seccion empresa (Listo)
 *Borrar Servicio personalizado (Listo)
 *Proyectos recientes, cambiar fotos por los que están en la página de ellos (elegir las 6 mejores), todas van al carrusel
 *Hard Skills, sacar los textos y centrar los titulos
