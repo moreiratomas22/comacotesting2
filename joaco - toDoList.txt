@@ -6,4 +6,4 @@
 *Borrar carrusel de la seccion empresa (Listo)
 *Borrar Servicio personalizado (Listo)
 *Proyectos recientes, cambiar fotos por los que están en la página de ellos (elegir las 6 mejores), todas van al carrusel
-*Hard Skills, sacar los textos y centrar los titulos
+*Hard Skills, sacar los textos y centrar los titulos (Listo)
