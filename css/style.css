@@ -516,6 +516,7 @@ blockquote p {
   .testimonialAndrewHorncastle {
     flex-direction: column;
   }
+
   blockquote {
     width: 90%;
   }
@@ -2713,6 +2714,7 @@ img.testimonial-thumb {
   align-items: center;
   justify-content: center;
 }
+
 /*-- Title border --*/
 .main-container .border-left {
   margin-bottom: 30px;
@@ -3632,12 +3634,19 @@ label {
   position: relative;
   perspective: 1000px;
   transform-style: preserve-3d;
+  height: 400px;
+  margin-bottom: 70px;
+  margin-top: -60px;
+}
+
+#slider-movile {
+  display: none;
 }
 
 #slider label {
   margin: auto;
   width: fit-content;
-  height: auto!important;
+  height: auto !important;
   border-radius: 4px;
   position: absolute;
   left: 0;
@@ -3645,13 +3654,28 @@ label {
   cursor: pointer;
   transition: transform 0.4s ease;
 }
+
+@media (max-width: 790px) {
+  #slider {
+    display: none;
+  }
+
+  #slider-movile {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 100% !important;
+  }
+}
+
 .shuffle-item {
   height: 400px;
-  width: 550px!important;
+  width: 550px !important;
 }
+
 .shuffle-item div {
   height: 400px;
-  width: 550px!important;
+  width: 550px !important;
 }
 
 .img-carrousel {
@@ -3661,7 +3685,7 @@ label {
 
 @media (min-width: 0) {
   #slider label div {
-    max-width: 100%!important;
+    max-width: 100% !important;
   }
 }
 
