@@ -1675,7 +1675,6 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   text-transform: uppercase;
   font-size: 18px;
   line-height: normal;
-  margin: 0;
 }
 
 .into-sub-title {
@@ -1808,6 +1807,49 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 
 /* Services
 ================================================== */
+.ulList li{
+  list-style: none;
+}
+.ulList li:before {
+  content: '✓';
+  margin-right: 10px;
+  color: #c82514;
+}
+.servicios-obras {
+  display: flex;
+  gap: 40px;
+
+}
+.backgorund-historia {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+.background-equipo {
+  padding: 40px;
+}
+.historia-equipo-comaco {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+.historia-equipo-comaco img {
+  width: 400px;
+  border-radius: 3px;
+}
+.historia-equipo-comaco div h3 {
+  font-size: 20px;
+}
+@media (max-width:1200px) {
+  .historia-equipo-comaco {
+    flex-direction: column;
+  }
+}
+@media (max-width: 420px) {
+  .historia-equipo-comaco img {
+    width: 300px;
+  }
+}
 /* Service box */
 .ts-service-box {
   margin: 15px;
@@ -1817,7 +1859,14 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   float: left;
   color: #C82514;
 }
-
+.ts-service-box-content {
+  height: 100px;
+}
+@media (min-width:768px) and (max-width:991px) {
+  .ts-service-box-content {
+    height: 200px;
+  }
+}
 .ts-service-box .ts-service-box-content {
   margin-left: 62px;
   margin-bottom: 30px;

@@ -7,3 +7,10 @@
 *Borrar Servicio personalizado (Listo)
 *Proyectos recientes, cambiar fotos por los que están en la página de ellos (elegir las 6 mejores), todas van al carrusel
 *Hard Skills, sacar los textos y centrar los titulos (Listo)
+
+*actualizar las fotos y etiquetas del carrusel (Listo)
+*Cuadrados de contacto (Hay uno de distinto tamaño) (Listo)
+*Servicios: POR QUE ELEGIRNOS
+FOTOS DE SERVICIOS
+QUE PODEMOS CONSTRUIR
+Obras modulares // Obras civiles (Listo)
