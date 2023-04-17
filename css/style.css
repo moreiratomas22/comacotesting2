@@ -1847,7 +1847,14 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   float: left;
   color: #C82514;
 }
-
+.ts-service-box-content {
+  height: 100px;
+}
+@media (min-width:768px) and (max-width:991px) {
+  .ts-service-box-content {
+    height: 200px;
+  }
+}
 .ts-service-box .ts-service-box-content {
   margin-left: 62px;
   margin-bottom: 30px;
