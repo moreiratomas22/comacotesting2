@@ -3666,6 +3666,31 @@ label {
     margin-top: 0px;
     width: 100% !important;
   }
+  .carousel-control-next,
+  .carousel-control-prev {
+    border: none;
+    background: rgba(0,0,0,0);
+    color: #000;
+    bottom: 0;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    margin: auto auto 20px auto;
+  }
+  .carousel-inner {
+    height: 400px;
+  }
+}
+
+@media (max-width: 460px) {
+  .carousel-inner {
+    height: 300px;
+  }
+}
+@media (max-width: 380px) {
+  .carousel-inner {
+    height: 200px;
+  }
 }
 
 .shuffle-item {
