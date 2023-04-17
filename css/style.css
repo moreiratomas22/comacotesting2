@@ -1675,7 +1675,6 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   text-transform: uppercase;
   font-size: 18px;
   line-height: normal;
-  margin: 0;
 }
 
 .into-sub-title {
@@ -1808,6 +1807,19 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 
 /* Services
 ================================================== */
+.ulList li{
+  list-style: none;
+}
+.ulList li:before {
+  content: '✓';
+  margin-right: 10px;
+  color: #c82514;
+}
+.servicios-obras {
+  display: flex;
+  gap: 40px;
+
+}
 .backgorund-historia {
   background-color: #f9f9f9;
   padding: 40px;
