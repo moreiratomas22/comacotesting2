@@ -1808,6 +1808,26 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 
 /* Services
 ================================================== */
+.backgorund-historia {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+.background-equipo {
+  padding: 40px;
+}
+.historia-equipo-comaco {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+.historia-equipo-comaco img {
+  width: 400px;
+  border-radius: 3px;
+}
+.historia-equipo-comaco div h3 {
+  font-size: 20px;
+}
 /* Service box */
 .ts-service-box {
   margin: 15px;
