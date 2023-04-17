@@ -2058,6 +2058,8 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .shuffle-item .project-img-container img {
   transform: perspective(1px) scale3d(1.1, 1.1, 1);
   transition: all 400ms;
+  width: 100%;
+  height: 100%;
 }
 
 .shuffle-item .project-img-container:hover img {
