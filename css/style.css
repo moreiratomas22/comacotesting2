@@ -1809,16 +1809,22 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 ================================================== */
 .ulList li{
   list-style: none;
+  position: relative;
 }
 .ulList li:before {
   content: '✓';
-  margin-right: 10px;
+  position: absolute;
+  left: -20px;
   color: #c82514;
 }
 .servicios-obras {
   display: flex;
   gap: 40px;
-
+}
+@media (max-width: 767px) {
+  .servicios-obras {
+    flex-direction: column;
+  }
 }
 .backgorund-historia {
   background-color: #f9f9f9;
