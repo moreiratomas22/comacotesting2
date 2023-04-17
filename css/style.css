@@ -445,7 +445,19 @@ hr {
   opacity: 0.2;
 }
 
+.testimonialAndrewHorncastle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonialAndrewHorncastle img {
+  width: 180px;
+  height: 180px;
+}
+
 blockquote {
+  width: 70%;
   padding: 25px;
   margin: 20px 0;
   background: #f9f9f9;
@@ -498,6 +510,15 @@ blockquote p {
   z-index: 1;
   font-style: italic;
   margin-bottom: 0;
+}
+
+@media (max-width:540px) {
+  .testimonialAndrewHorncastle {
+    flex-direction: column;
+  }
+  blockquote {
+    width: 90%;
+  }
 }
 
 cite {
@@ -605,6 +626,7 @@ a[href^=tel] {
 
 .btn-primary {
   background: #C82514;
+  transition: ease-in-out 0.3s;
 }
 
 .btn-dark {
@@ -615,6 +637,7 @@ a[href^=tel] {
 .btn-dark:hover,
 .btn-white.btn-primary:hover {
   background: #111;
+  background-color: #70180e;
   color: #fff;
 }
 
@@ -1627,7 +1650,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 }
 
 .call-to-action-box .action-style-box {
-  background: #C82514;
+  background-color: #23282d;
   padding: 30px;
 }
 
@@ -1807,8 +1830,8 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 }
 
 .ts-service-box .ts-service-box-info {
+  margin: auto;
   margin-left: 25px;
-  margin-bottom: 40px;
 }
 
 .service-box-title {
@@ -1945,6 +1968,8 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 
 .ts-service-info {
   margin-left: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .ts-service-info h3 {
@@ -2684,6 +2709,10 @@ img.testimonial-thumb {
 
 /* Sub Pages
 ================================================== */
+.row {
+  align-items: center;
+  justify-content: center;
+}
 /*-- Title border --*/
 .main-container .border-left {
   margin-bottom: 30px;
