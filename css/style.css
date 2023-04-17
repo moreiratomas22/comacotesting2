@@ -1960,6 +1960,10 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .ts-service-image-wrapper {
   margin-bottom: 30px;
 }
+.ts-service-image-wrapper img {
+  width: 350px;
+  height: 250px;
+}
 
 .ts-service-icon i {
   font-size: 28px;
