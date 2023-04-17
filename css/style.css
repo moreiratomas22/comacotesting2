@@ -2627,8 +2627,7 @@ img.testimonial-thumb {
 /*-- Copyright --*/
 .copyright {
   text-align: center;
-  background: #c82514;
-  color: #111;
+  color: #fff;
   padding: 0;
   position: relative;
   z-index: 1;
