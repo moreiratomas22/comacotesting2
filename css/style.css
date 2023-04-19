@@ -3873,3 +3873,8 @@ label {
 .cardHouse img{
   height: 280px;
 }
+
+/* para sacar el punto rojo de los carruseles */
+#slick-slide-control00 {
+  display: none;
+}
