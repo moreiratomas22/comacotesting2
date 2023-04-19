@@ -781,10 +781,16 @@ ul.top-info li p.info-text {
 .header-one .navbar-collapse {
   padding-left: 0;
 }
+.logoComacoNav{
+  height: 50px;
+  margin-right: 40px;
+  border-radius: 50px;
+}
 
 @media (max-width: 991px) {
   .navbar-collapse.collapse {
     overflow-y: auto;
+    padding-bottom: 20px;
   }
 }
 
@@ -967,6 +973,19 @@ ul.top-info-box>li.nav-search i {
 }
 
 /* Main navigation */
+.socialIconsNavBar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.socialIconsNavBar img {
+  height: 28px;
+  transition: ease-in-out 0.3s;
+}
+.socialIconsNavBar img:hover {
+  transform: scale(1.25);
+}
+
 .navbar-toggler {
   float: left;
   margin-top: 10px;
