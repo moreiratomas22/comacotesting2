@@ -979,7 +979,7 @@ ul.top-info-box>li.nav-search i {
   align-items: center;
 }
 .socialIconsNavBar img {
-  height: 28px;
+  height: 21px;
   transition: ease-in-out 0.3s;
 }
 .socialIconsNavBar img:hover {
@@ -3868,8 +3868,22 @@ label {
   background-color: #f9f9f9;
 }
 .cardHouse h3 {
-  margin: 50px;
+  margin: 30px;
+}
+.cardHouse div {
+  width: 475px;
 }
 .cardHouse img{
   height: 280px;
+}
+
+@media (max-width: 500px) {
+  .cardHouse div {
+    width: 300px;
+  }
+}
+
+/* para sacar el punto rojo de los carruseles */
+#slick-slide-control00 {
+  display: none;
 }
