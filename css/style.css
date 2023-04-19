@@ -3855,3 +3855,21 @@ label {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
   transform: translate3d(-15%, 0, -100px);
 }
+
+/* houses */
+.cardHouseContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+}
+.cardHouse {
+  background-color: #f9f9f9;
+}
+.cardHouse h3 {
+  margin: 50px;
+}
+.cardHouse img{
+  height: 280px;
+}
