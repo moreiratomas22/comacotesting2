@@ -1887,9 +1887,17 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .ts-service-box-content {
   height: 100px;
 }
+@media (min-width:991px) and (max-width:1199px) {
+  .ts-service-box-content {
+    height: 120px;
+  }
+}
 @media (min-width:768px) and (max-width:991px) {
   .ts-service-box-content {
     height: 200px;
+  }
+  .ts-service-box-bg {
+    width: 245px;
   }
 }
 .ts-service-box .ts-service-box-content {
